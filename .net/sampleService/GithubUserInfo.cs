@@ -4,7 +4,7 @@ namespace sampleService
 {
     public class GithubUserInfo
     {
-        public int  PublicRepos { get; set; }
+        public int  Public_repos { get; set; }
 
         public int  Followers { get; set; }
 
@@ -15,5 +15,8 @@ namespace sampleService
         public string Location { get; set; }
 
         public string Bio { get; set; }
+
+        public string Twitter_username { get; set; } 
     }
+
 }
