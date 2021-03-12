@@ -30,4 +30,4 @@ The `sampleService` project will display some information about a `Github` user.
 ~$ cd sampleService
 ~$ dotnet run
 ```
-You can access the data from the URL, `http://localhost:5000/GithubUserInfo`. Currently the Github user is hardcoded to `saisyam`.
+You can access the data from the URL, `http://localhost:5000/GithubUserInfo?name=saisyam`. This will display my account information.
